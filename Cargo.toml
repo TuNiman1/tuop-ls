@@ -1,0 +1,33 @@
+[package]
+edition = "2021"
+name = "tuop-ls"
+version = "0.2.1"
+authors = ["TuNiDev, YRM11"]
+description = "An Several Useful For Everyday Commands"
+homepage = "https://github.com/TuNiman1/tuop-ls"
+keywords = ["cli", "directory", "converter"]
+categories = ["command-line-interface"]
+license = "MIT"
+repository = "https://github.com/TuNiman1/tuop-ls"
+include = ["src/**/*", "Cargo.toml", "README.md", "resources/*"]
+
+[dependencies.clap]
+version = "3.1.8"
+
+[dependencies]
+concat-with = "0.2"
+terminal_size = "0.1"
+lazy-static-include = "3.1.1"
+html-minifier = "3"
+comrak = "0.12.1"
+html-escape = "0.2"
+
+[dependencies.path-absolutize]
+version = "3"
+features = ["once_cell_cache"]
+
+
+[profile.release]
+lto = true
+codegen-units = 1
+panic = "abort"
