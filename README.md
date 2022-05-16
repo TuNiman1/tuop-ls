@@ -34,3 +34,11 @@
 
 ## what's new in 0.2.1?
   - Not much stuff, just removed the unused crates
+
+
+## what's new in 0.2.2?
+  - I noticed an error in the converter, so i fixed it, and i realized that this error was here before!!
+  - Btw, now you can use tuop-ls perfectly fine.
+    - I really appreciate all the downloads recently, huge thanks to everyone!
+
+### IF THERE IS MORE ERRORS PLEASE, NOTICE ME ON THE GITHUB PAGE

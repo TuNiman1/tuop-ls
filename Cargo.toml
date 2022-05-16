@@ -1,7 +1,7 @@
 [package]
 edition = "2021"
 name = "tuop-ls"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["TuNiDev, YRM11"]
 description = "An Several Useful For Everyday Commands"
 homepage = "https://github.com/TuNiman1/tuop-ls"
