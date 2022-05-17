@@ -1,15 +1,15 @@
 [package]
 edition = "2021"
 name = "tuop-ls"
-version = "0.2.2"
+version = "0.2.4"
 authors = ["TuNiDev, YRM11"]
 description = "An Several Useful For Everyday Commands"
 homepage = "https://github.com/TuNiman1/tuop-ls"
-keywords = ["cli", "directory", "converter"]
-categories = ["command-line-interface"]
+keywords = ["cli", "directory", "converter", "html", "markdown"]
+categories = ["command-line-interface", "file-converter"]
 license = "MIT"
 repository = "https://github.com/TuNiman1/tuop-ls"
-include = ["src/**/*", "Cargo.toml", "README.md", "resources/*"]
+include = ["src/**/*", "Cargo.toml", "README.md", "resources/*", "LICENSE"]
 
 [dependencies.clap]
 version = "3.1.8"

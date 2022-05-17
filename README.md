@@ -42,3 +42,9 @@
     - I really appreciate all the downloads recently, huge thanks to everyone!
 
 ### IF THERE IS MORE ERRORS PLEASE, NOTICE ME ON THE GITHUB PAGE
+
+## what's new in 0.2.3?
+  - Added LICENSE to the program
+
+## what's new in 0.2.4?
+  - Errors AGAIN!, now fixed and should be good forever
